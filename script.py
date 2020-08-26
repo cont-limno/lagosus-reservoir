@@ -139,8 +139,10 @@ def prediction(final_model_path, pred_dir):
     csvfile.close()
 
 if __name__ == '__main__':
+    #image directories
     train_data_dir = "LAGOSNE_Train/"
-    pred_data_dir = "LAGOSNE_Unclassified/"  #"LAGOSUS_Unclassified/"
+    pred_data_dir = "LAGOSNE_Unclassified/"
+    #save path
     final_model_path = 'results/TrainOn_' + train_data_dir
     if not os.path.isfile(final_model_path + 'model.pkl'):
         main(final_model_path, train_data_dir)

@@ -1,3 +1,8 @@
+""" 
+Fine tune ResNet. 
+Part of the code is copied from PyTorch tutorial 
+https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+"""
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -5,7 +10,8 @@ from torch.optim import lr_scheduler
 from torchvision import models
 import time
 import copy
-# Fine tune ResNet
+
+
 class TrainPred():
     def __init__(self, device):
         self.device = device

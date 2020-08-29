@@ -1,3 +1,4 @@
+"""Script for the experiment"""
 import os
 import pickle
 import torch
@@ -10,10 +11,9 @@ import os
 import csv
 from functions import Train
 import random
-# script for the experiment
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-#device = torch.device("cpu")
 
+
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(1)
 epoch_num = 50
 rep_exp = 10

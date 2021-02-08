@@ -1,6 +1,7 @@
 #Patrick Hanly, Marcella Domka, Kath Webster collaboration
 #RSVR and NL Word Clouds for Primary Names
 #Last Updated: February 8th, 2021 by Marcella Domka
+#For exporting from PNG to TIFF: used Gimp Software (free). Open the PNG file, file, export as, select TIFF, export! This is the easiest way to export a word cloud as a TIFF.
 
 #read in data
 wc_data <- read.csv("lagos data.csv")

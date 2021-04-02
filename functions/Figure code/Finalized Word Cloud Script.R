@@ -3,7 +3,9 @@
 #Last Updated: February 8th, 2021 by Marcella Domka
 #For exporting from PNG to TIFF: used Gimp Software (free). Open the PNG file, file, export as, select TIFF, export! This is the easiest way to export a word cloud as a TIFF.
 
-#read in data
+#read in data 
+# IMPORTANT NOTE: you should use the most updated version of the lagos RSVR dataset...it is "LAGOSUS_RSVR_v1.1.csv"
+#This is only relevant if you are using the RSVR dataset, of course.
 wc_data <- read.csv("lagos data.csv")
 
 #inspect the head of the data
